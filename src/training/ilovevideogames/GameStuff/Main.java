@@ -1,11 +1,14 @@
-package training.ilovevideogames;
+package training.ilovevideogames.GameStuff;
+
+import training.ilovevideogames.Annotations.GetDone;
 
 import java.time.LocalDate;
 import java.util.*;
+import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.stream.Collectors;
 
 public class Main {
-
+    @GetDone("This is pointless")
     public static void main(String[] args) {
         List<Game> games = Arrays.asList(
             new Game("Fire Emblem: Three Houses", 89, LocalDate.of(2019, 7, 26)),
@@ -30,16 +33,45 @@ public class Main {
             new Game("The Legend of Zelda: Breath of the Wild", 97, LocalDate.of(2017, 3, 3))
         );
 
+        //Do Same thing
+        /*
+        games.sort(new GameComparatorByMetacriticRating());
+        games.forEach(System.out::println);
+        games.sort((g1,g2) -> Integer.compare(g1.metacriticRating, g2.metacriticRating));
+        */
         Collections.sort(games);
 
-        games.forEach(System.out::println);
+        //games.forEach(System.out::println);
 
         List<Game> example = games.stream()
-                .filter(g -> g.metacriticRating > 80)
-                .map(g -> {
-                    g.metacriticRating *= 2;
-                    return g;
-                })
+                .filter(g -> g.metacriticRating < 91)
+                .filter(game -> (game.releaseDate.isBefore(LocalDate.now().minusYears(2))))
+                .sorted()
+                .distinct()
+                .limit(3)
                 .collect(Collectors.toList());
+        example.forEach(System.out::println);
+
+
+        AtomicBoolean outsideFlag = new AtomicBoolean(false);
+
+        Runnable seperateThreadFunction = () -> {
+            for (int i = 0; i < 100000; i++){
+                if (outsideFlag.get()){
+                    return;
+                }
+                System.out.println("separate Thread");
+            }
+        };
+
+        Thread backgroundThread = new Thread(seperateThreadFunction);
+        backgroundThread.start();
+
+        for (int i = 0; i < 100000; i++){
+            if (i == 50000){
+                outsideFlag.set(true);
+            }
+            System.out.println("Main Thread");
+        }
     }
 }

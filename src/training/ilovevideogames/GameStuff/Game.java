@@ -1,9 +1,9 @@
-package training.ilovevideogames;
+package training.ilovevideogames.GameStuff;
 
 import java.time.LocalDate;
 import java.util.Objects;
 
-class Game implements Comparable<Game> {
+final class Game implements Comparable<Game> {
     String name;
     int metacriticRating;
     LocalDate releaseDate;
@@ -34,7 +34,7 @@ class Game implements Comparable<Game> {
         }
         Game game = (Game) obj;
 
-        return name.equals(game.name) && metacriticRating == game.metacriticRating && releaseDate.isEqual(game.releaseDate);
+        return name.equals(game.name);
     }
 
     @Override
