@@ -26,7 +26,6 @@ public class Run_Counting {
         baseList = resetList();
         System.out.println("\n\n\n Bubble Sort Method");
         Bubble(baseList);
-
     }
 
     @Reasons("speed up typing out arrays")
