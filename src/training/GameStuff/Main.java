@@ -1,6 +1,6 @@
-package training.ilovevideogames.GameStuff;
+package training.GameStuff;
 
-import training.ilovevideogames.Annotations.GetDone;
+import training.Annotations.GetDone;
 
 import java.time.LocalDate;
 import java.util.*;

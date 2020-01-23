@@ -1,4 +1,4 @@
-package training.ilovevideogames.Concurrency;
+package training.Concurrency;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutorService;

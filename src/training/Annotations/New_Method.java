@@ -1,4 +1,4 @@
-package training.ilovevideogames.Annotations;
+package training.Annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -7,6 +7,7 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.SOURCE)
 @Target({ElementType.TYPE, ElementType.METHOD})
-public @interface Reasons {
+public @interface New_Method {
     String value() default "";
+
 }

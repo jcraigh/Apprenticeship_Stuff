@@ -1,4 +1,4 @@
-package training.ilovevideogames.GameStuff;
+package training.GameStuff;
 
 import java.util.Comparator;
 
