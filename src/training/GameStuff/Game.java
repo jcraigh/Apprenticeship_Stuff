@@ -1,4 +1,4 @@
-package training.ilovevideogames.GameStuff;
+package training.GameStuff;
 
 import java.time.LocalDate;
 import java.util.Objects;

@@ -1,8 +1,8 @@
-package training.ilovevideogames.SortingAlgorithims;
+package training.SortingAlgorithims;
 
-import training.ilovevideogames.Annotations.Needed_With_Method_Above;
-import training.ilovevideogames.Annotations.New_Method;
-import training.ilovevideogames.Annotations.Reasons;
+import training.Annotations.Needed_With_Method_Above;
+import training.Annotations.New_Method;
+import training.Annotations.Reasons;
 
 public class Run_Counting {
     public static void main(String args[]) {

@@ -1,4 +1,4 @@
-package training.ilovevideogames.Annotations;
+package training.Annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -7,6 +7,6 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.SOURCE)
 @Target({ElementType.TYPE, ElementType.METHOD})
-public @interface Needed_With_Method_Above {
+public @interface GetDone {
     String value() default "";
 }
