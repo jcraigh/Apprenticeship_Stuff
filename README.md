@@ -8,6 +8,7 @@ out of the training but this file will contain it if it is to do with apprentice
 - [Video Games stuff](src/training/GameStuff/Main.java)
 - [Sorting Algorithms](src/training/SortingAlgorithims/Run_Counting.java)
 - [Concurrency](src/training/Concurrency/Concurrency.java)
+- [Zoo](src/training/Zoo/App.java)
 
 ### BootCamp
 ###### This is the work that I did during the BootCamp at the beginning of the apprenticeship
@@ -17,4 +18,4 @@ out of the training but this file will contain it if it is to do with apprentice
 - [Bookish](https://github.com/jcraigh/Bookish-Java)
 - [Dynamite](https://github.com/jcraigh/Dynamite-Java)
 - [Support Bank](src/BootCamp/SupportBank/SupportBank.java)
-- [Email Extraction]()
+- [Email Extraction](src/BootCamp/EmailExtraction/EmailExtraction.java)
