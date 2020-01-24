@@ -17,3 +17,4 @@ out of the training but this file will contain it if it is to do with apprentice
 - [Bookish](https://github.com/jcraigh/Bookish-Java)
 - [Dynamite](https://github.com/jcraigh/Dynamite-Java)
 - [Support Bank](src/BootCamp/SupportBank/SupportBank.java)
+- [Email Extraction]()
