@@ -11,8 +11,9 @@ out of the training but this file will contain it if it is to do with apprentice
 
 ### BootCamp
 ###### This is the work that I did during the BootCamp at the beginning of the apprenticeship
+- [FizzBuzz](src/BootCamp/FizzBuzz/FizzBuzz.java)
 - [CIA](https://github.com/jcraigh/Agent-CIA) (This doesn't work on the laptops from work but here is the code)
 - [Chessington](https://github.com/catlikecomet/Chessington-Java)
 - [Bookish](https://github.com/jcraigh/Bookish-Java)
 - [Dynamite](https://github.com/jcraigh/Dynamite-Java)
-- [Support Bank](https://github.com/jcraigh/SupportBank)
+- [Support Bank](src/BootCamp/SupportBank/SupportBank.java)
