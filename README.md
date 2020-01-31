@@ -2,6 +2,8 @@
 This is the page that has the contains of the apprenticeship work that I have been doing both during the training and while not during the training and
 out of the training but this file will contain it if it is to do with apprenticeship work.
 
+For the training work I have put the Written work in a markdown file in the same folder that the code is in
+
 ### Training Work
 ###### This is the weekly work that I do towards my apprenticeship
 - [Annotations](src/training/Annotations)

@@ -8,24 +8,39 @@ public class Run_Counting {
     public static void main(String args[]) {
         int[] baseList = resetList();
         System.out.println(" Insertion Sort");
+        long startime = System.currentTimeMillis();
         Insertion(baseList);
+        long endtime = System.currentTimeMillis();
+        System.out.println("This took " + (endtime - startime) + " milliseconds");
 
         baseList = resetList();
+        startime = System.currentTimeMillis();
         System.out.println("\n\n\n Selection Sort");
         Selection(baseList);
+        endtime = System.currentTimeMillis();
+        System.out.println("This took " + (endtime - startime) + " milliseconds");
 
         baseList = resetList();
         System.out.println("\n\n\n Merge Sort");
+        startime = System.currentTimeMillis();
         int size = baseList.length;
         MergeSort(baseList, size);
+        endtime = System.currentTimeMillis();
+        System.out.println("This took " + (endtime - startime) + " milliseconds");
 
         baseList = resetList();
         System.out.println("\n\n\n Quick Sort");
+        startime = System.currentTimeMillis();
         Quick(baseList, 0, size - 1);
+        endtime = System.currentTimeMillis();
+        System.out.println("This took " + (endtime - startime) + " milliseconds");
 
         baseList = resetList();
         System.out.println("\n\n\n Bubble Sort Method");
+        startime = System.currentTimeMillis();
         Bubble(baseList);
+        endtime = System.currentTimeMillis();
+        System.out.println("This took " + (endtime - startime) + " milliseconds");
     }
 
     @Reasons("speed up typing out arrays")
