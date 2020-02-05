@@ -6,11 +6,13 @@ For the training work I have put the Written work in a markdown file in the same
 
 ### Training Work
 ###### This is the weekly work that I do towards my apprenticeship
-- [Annotations](src/training/Annotations)
+- [Annotations](src/training/Annotations) (This wasn't part of the training but it works but have been used in the work)
 - [Video Games stuff](src/training/GameStuff/Main.java)
 - [Sorting Algorithms](src/training/SortingAlgorithims/Run_Counting.java)
 - [Concurrency](src/training/Concurrency/Concurrency.java)
 - [Zoo](src/training/Zoo/App.java)
+- [Searching In Java](src/training/Searching/Searching.java)
+- [List](src/training/Lists/MyLinkedList.java)
 
 ### BootCamp
 ###### This is the work that I did during the BootCamp at the beginning of the apprenticeship
