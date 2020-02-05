@@ -6,7 +6,7 @@ For the training work I have put the Written work in a markdown file in the same
 
 ### Training Work
 ###### This is the weekly work that I do towards my apprenticeship
-- [Annotations](src/training/Annotations) (This wasn't part of the training but it works but have been used in the work)
+- [Annotations](src/training/Annotations) (This wasn't part of the training but have been used in the work)
 - [Video Games stuff](src/training/GameStuff/Main.java)
 - [Sorting Algorithms](src/training/SortingAlgorithims/Run_Counting.java)
 - [Concurrency](src/training/Concurrency/Concurrency.java)
