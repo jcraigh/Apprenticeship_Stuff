@@ -1,5 +1,5 @@
-#Introductions in to Algorithms
-##Question
+# Introductions in to Algorithms
+## Question
 >You are running a peer-to-peer lending website that attempts to match borrowers (people who want a loan) to lenders (people who want to invest their money by lending it to someone else). You have found that as your business grows your current matching algorithm is getting too slow, so you want to find a better one. You've done some research and have identified a number of options:
 
 >Option A has time complexity O(n+m) and memory complexity O(n^m) (n to the power of m)
@@ -8,7 +8,7 @@
 
 >Option C has time complexity O(n*m) and memory complexity O(n+m)
 
-####Which option do you think is most appropriate, and why? What other factors might you need to consider in making your decision?
+#### Which option do you think is most appropriate, and why? What other factors might you need to consider in making your decision?
 
 There are a few things that need to be considered when picking a algorithm like how big is the matching search.
 
