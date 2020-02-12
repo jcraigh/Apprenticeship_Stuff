@@ -2,7 +2,7 @@ package training.Searching;
 
 import java.util.Arrays;
 
-public class Searching {
+public class Sudoku {
     public static void main(String[] args) {
         int[] grid = {
                 0, 0, 0, 0, 0, 2, 1, 0, 0,

@@ -11,7 +11,7 @@ For the training work I have put the Written work in a markdown file in the same
 - [Sorting Algorithms](src/training/SortingAlgorithims/Run_Counting.java)
 - [Concurrency](src/training/Concurrency/Concurrency.java)
 - [Zoo](src/training/Zoo/App.java)
-- [Sudoku Solver](src/training/Searching/Searching.java)
+- [Sudoku Solver](src/training/Searching/Sudoku.java)
 - [List](src/training/Lists/MyLinkedList.java)
 
 ### BootCamp
