@@ -108,11 +108,16 @@ public class MyLinkedList {
     }
 
     public static void size(MyLinkedList list) {
-        Node currentNode = list.head;
-        int s = 1;
-        while (currentNode.nextNode != null) {
-            currentNode = currentNode.nextNode;
-            s++;
+        int s = 0;
+        if (list.head == null) {
+            s = 0;
+        } else {
+            Node currentNode = list.head;
+            s = 1;
+            while (currentNode.nextNode != null) {
+                currentNode = currentNode.nextNode;
+                s++;
+            }
         }
         System.out.println("\nThe list size is " + s);
     }
