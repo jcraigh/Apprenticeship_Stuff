@@ -1,14 +1,7 @@
 package BootCamp.EmailExtraction;
 
-import java.io.IOException;
-import java.nio.charset.Charset;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 public class EmailExtraction {
-    public static void main(String[] args) throws IOException {
+    /**public static void main(String[] args) throws IOException {
         String sample = Files.readString(Paths.get("src/BootCamp/EmailExtraction/sample.txt"), Charset.forName("windows-1252"));
 
         int counter = 0;
@@ -23,4 +16,5 @@ public class EmailExtraction {
             }
         System.out.println(counter);
     }
+     **/
 }
